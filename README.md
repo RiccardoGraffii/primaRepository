@@ -1,2 +1,2 @@
 # README
-posso fare una umilisima richiesta pos cheidere umilisimamente un poco di pasta a grano saraceno duro con trafilatura bronzea
+posso fare una umilisima richiesta posso chiedere umilisimamente un poco di pasta a grano saraceno duro con trafilatura bronzea
