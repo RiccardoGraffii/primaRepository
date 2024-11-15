@@ -1,0 +1,49 @@
+public class ES_2{
+
+    public static void main(String[] args){
+
+        if(args[1] == null){
+
+            return; 
+
+        }
+
+        String StringaInPosizioneC = args[0];
+        int altezza =Integer.parseInt(args[1]);
+
+        while(altezza <= 2 || altezza >= StringaInPosizioneC.length()-4){
+
+            System.out.println("il numero inizialiato è erato riprova" );
+            altezza=Leggi.unInt();
+
+        }
+
+        for(int i = 0; i <= altezza-1; i ++){
+
+            System.out.print(StringaInPosizioneC.charAt(i));
+
+
+        }
+         
+        System.out.print("\n");
+
+        for(int i = altezza; i <= StringaInPosizioneC.length()-4; i++){
+
+            System.out.println( "        "+StringaInPosizioneC.charAt(i)  );
+
+
+        }
+
+        for(int i = StringaInPosizioneC.length()-1; i>=StringaInPosizioneC.length()-3; i--){
+
+            System.out.print(StringaInPosizioneC.charAt(i));
+
+
+        }
+
+
+
+    }
+
+
+}
