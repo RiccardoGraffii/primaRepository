@@ -37,6 +37,7 @@ public class ES_2{
         for(int i = StringaInPosizioneC.length()-1; i>=StringaInPosizioneC.length()-3; i--){
 
             System.out.print(StringaInPosizioneC.charAt(i));
+             System.out.print(StringaInPosizioneC.charAt(i));
 
 
         }
